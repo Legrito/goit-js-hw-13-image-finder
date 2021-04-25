@@ -67,7 +67,6 @@ const onLightBoxCreate = (e) => {
         return;
     } else {
     instance.show();
-    console.log(instance.element());
     const lightBoxEl = instance.element();
     lightBoxEl.querySelector('img').src = `${e.target.dataset.source}`;
     }
